@@ -553,7 +553,7 @@ hr.black{
     text-align: center;
     text-transform: uppercase;
     opacity: .9;
-
+    
     -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
@@ -573,7 +573,6 @@ hr.black{
     line-height: 1.3;
     color: rgba(255,255,255, .75);
 }
-
 .big-icon.black{
     color: #000;
     border-color: rgba(0,0,0, .75);
@@ -594,8 +593,6 @@ hr.black{
     color: rgba(0,0,0, .75);
 }
 
-
-
 /* ==============================
    Buttons
    ============================== */
@@ -614,15 +611,12 @@ a.btn-mod{
     text-transform: uppercase;
     text-decoration: none;
     letter-spacing: 2px;
-
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
     border-radius: 0;
-
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
-
     -webkit-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     -moz-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     -o-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
@@ -646,7 +640,6 @@ a.btn-mod:focus{
     cursor: pointer !important;
     outline: none !important;
 }
-
 .btn-mod.btn-small{
     height: auto;
     padding: 6px 17px;
@@ -663,7 +656,6 @@ a.btn-mod:focus{
     padding: 12px 45px;
     font-size: 13px;
 }
-
 .btn-mod.btn-glass{
     color: rgba(255,255,255, .75);
     background: rgba(0,0,0, .40);
@@ -673,7 +665,6 @@ a.btn-mod:focus{
     color: rgba(255,255,255, 1);
     background: rgba(0,0,0, 1);
 }
-
 .btn-mod.btn-border{
     color: #151515;
     border: 2px solid #151515;
@@ -685,7 +676,6 @@ a.btn-mod:focus{
     border-color: transparent;
     background: #000;
 }
-
 .btn-mod.btn-border-c{
     color: #e41919;
     border: 2px solid #e41919;
@@ -697,7 +687,6 @@ a.btn-mod:focus{
     border-color: transparent;
     background: #e41919;
 }
-
 .btn-mod.btn-border-w{
     color: #fff;
     border: 2px solid rgba(255,255,255, .75);
@@ -709,7 +698,6 @@ a.btn-mod:focus{
     border-color: transparent;
     background: #fff;
 }
-
 .btn-mod.btn-w{
     color: #111;
     background: rgba(255,255,255, .8);
@@ -719,7 +707,6 @@ a.btn-mod:focus{
     color: #111;
     background: #fff;
 }
-
 .btn-mod.btn-w-color{
     color: #e41919;
     background: #fff;
@@ -729,7 +716,6 @@ a.btn-mod:focus{
     color: #151515;
     background: #fff;
 }
-
 .btn-mod.btn-gray{
     color: #777;
     background: #e5e5e5;
@@ -739,7 +725,6 @@ a.btn-mod:focus{
     color: #444;
     background: #d5d5d5;
 }
-
 .btn-mod.btn-color{
     color: #fff;
     background: #e41919;
@@ -780,7 +765,6 @@ a.btn-mod:focus{
     color: #777;
     font-size: 48px;
     opacity: .2;
-
     -webkit-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     -moz-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     -o-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
@@ -789,7 +773,6 @@ a.btn-mod:focus{
 }
 .btn-icon:hover > span{
     opacity: 0;
-
     -webkit-transform: scale(2);
     -moz-transform: scale(2);
     -o-transform: scale(2);
@@ -805,7 +788,6 @@ a.btn-mod:focus{
 .btn-full{
     width: 100%;
 }
-
 
 /* ==============================
    Forms fields
@@ -832,19 +814,15 @@ a.btn-mod:focus{
     border: 1px solid rgba(0,0,0, .1);
     padding-left: 7px;
     padding-right: 7px;
-
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
     border-radius: 0;
-
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
-
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-
     -webkit-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     -moz-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     -o-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
@@ -1834,7 +1812,7 @@ a.logo:hover{
 }
 .mobile-nav:hover,
 .mobile-nav.active{
-    background: #fff;
+    background: #000;
     color: #777;
 }
 .mobile-nav:active{
@@ -1850,6 +1828,7 @@ a.logo:hover{
     display: table;
 }
 .mobile-nav .fa{
+    color: white;
     height: 100%;
     display: table-cell;
     vertical-align: middle;
