@@ -108,7 +108,7 @@ Section Text:       15px/1.7 "Open Sans", arial, sans-serif;
 .hidden{display:none;}
 .inline-block{display:inline-block;}
 .white{ color: #fff !important; }
-.black{ color: #111 !important; }
+.black{color: #333 !important;}
 .color{ color: #e41919 !important; }
 .glass{ opacity: .5; };
 .image-fullwidth img{
