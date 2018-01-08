@@ -1008,6 +1008,7 @@ a.btn-mod:focus{
     display: table-cell;
     height: 100%;
     vertical-align: middle;
+    /* padding:  0; */
 }
 
 /* Scroll down icon */
