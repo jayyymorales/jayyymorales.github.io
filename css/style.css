@@ -1438,7 +1438,6 @@ a.btn-mod:focus{
     vertical-align: middle;
     max-width: 118px;
     height: 75px;
-
     -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
@@ -1455,7 +1454,7 @@ a.btn-mod:focus{
 .logo,
 a.logo:hover{
     font-family: Dosis, arial, sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 400 !important;
     text-transform: uppercase;
     letter-spacing: 0.2em;
@@ -1492,7 +1491,7 @@ a.logo:hover{
 
 .small-height{
   background-color: #fff;
-  height: 55px !important;
+  height: 50px !important;
 }
 .small-height .inner-nav ul li a{
     height: 55px !important;
