@@ -1490,8 +1490,8 @@ a.logo:hover{
 
 
 .small-height{
-  background-color: #000;
-    height: 55px !important;
+  background-color: #fff;
+  height: 55px !important;
 }
 .small-height .inner-nav ul li a{
     height: 55px !important;
@@ -1518,14 +1518,13 @@ a.logo:hover{
     position: relative;
 }
 .inner-nav ul li a{
-    color: #fff;
+    color: #000;
     letter-spacing: 2px;
     display: inline-block;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     text-decoration: none;
-
     -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
