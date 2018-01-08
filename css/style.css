@@ -1791,19 +1791,16 @@ a.logo:hover{
     border-left: 1px solid rgba(0,0,0, .05);
     border-right: 1px solid rgba(0,0,0, .05);
     cursor: pointer;
-
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     -o-user-select: none;
     user-select: none;
-
     -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-
     -webkit-transition-property: background, color;
     -moz-transition-property: background, color;
     -o-transition-property: background, color;
@@ -1811,8 +1808,8 @@ a.logo:hover{
 }
 .mobile-nav:hover,
 .mobile-nav.active{
-    background: #000;
-    color: #777;
+    /* background: #000; */
+    /* color: #888; */
 }
 .mobile-nav:active{
     -webkit-box-shadow: 0 0 35px rgba(0,0,0,.05) inset;
@@ -1827,7 +1824,7 @@ a.logo:hover{
     display: table;
 }
 .mobile-nav .fa{
-    color: white;
+    color: #000;
     height: 100%;
     display: table-cell;
     vertical-align: middle;
